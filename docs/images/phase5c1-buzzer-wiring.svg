@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1060" viewBox="0 0 1400 1060">
+
+ <style>text{font-family:Arial,sans-serif;fill:#172b40;font-size:21px}.small{font-size:18px}.title{font-size:32px;font-weight:bold}.wire{fill:none;stroke:#263849;stroke-width:4;stroke-linejoin:round}.power{stroke:#be3434}.signal{stroke:#147f87}.box{fill:#edf4fa;stroke:#263849;stroke-width:3}.node{fill:#263849}</style>
+
+ <rect width="1400" height="960" fill="white"/>
+
+ <text x="60" y="55" class="title">Phase 5C-1 · D8 transistor driver for a two-pin active buzzer</text>
+
+ <text x="60" y="90">Electrical connections only — B/C/E are terminal names, NOT a physical lead order.</text>
+
+ <rect x="70" y="125" width="250" height="590" rx="16" class="box"/>
+
+ <text x="95" y="315" font-weight="bold">ELEGOO</text><text x="95" y="350" font-weight="bold">MEGA 2560</text>
+
+ <text x="95" y="395" class="small">USB power only</text><text x="95" y="425" class="small">D13 LED unchanged</text>
+
+ <text x="240" y="167">5V</text><text x="240" y="567">D8</text><text x="235" y="687">GND</text>
+
+ <path d="M320 160 H900 V270 H1150 V310 M900 270 V310" class="wire power"/>
+
+ <text x="400" y="195">5V directly supplies the documented kit buzzer</text>
+
+ <text x="400" y="224" class="small">Published: 3.5-5.5 V, current &lt;25 mA</text>
+
+ <text x="400" y="253" class="small">No R3/R4 supply resistors in this revised circuit</text>
+
+ <circle cx="900" cy="270" r="6" class="node"/>
+
+ <rect x="810" y="310" width="180" height="100" rx="15" class="box"/>
+
+ <text x="827" y="349">Active buzzer</text><text x="841" y="380" class="small">5V-compatible</text>
+
+ <text x="914" y="302">+</text><text x="914" y="437">−</text>
+
+ <path d="M900 410 V500 M900 450 H1150 V390" class="wire"/>
+
+ <rect x="1125" y="310" width="50" height="80" fill="#384453" stroke="#263849" stroke-width="3"/>
+
+ <rect x="1127" y="319" width="46" height="9" fill="#cdd6df"/>
+
+ <text x="1194" y="333" class="small">K: banded end</text><text x="1194" y="367" class="small">1N4007 diode</text>
+
+ <text x="1194" y="401" class="small">A: unbanded end</text>
+
+ <circle cx="900" cy="450" r="6" class="node"/>
+
+ <rect x="830" y="500" width="160" height="160" rx="15" class="box"/>
+
+ <text x="892" y="525">C</text><text x="842" y="567">B</text><text x="892" y="647">E</text>
+
+ <text x="855" y="588" font-weight="bold">2N2222A</text><text x="886" y="615" class="small">NPN</text>
+
+ <path d="M320 560 H450 M550 560 H830" class="wire signal"/>
+
+ <rect x="450" y="542" width="100" height="36" fill="#fff3db" stroke="#263849" stroke-width="3"/>
+
+ <text x="435" y="520">R1: 470 Ω</text><text x="385" y="610" class="small">D8 controls base through R1</text>
+
+ <path d="M710 560 V635 M710 695 V760 M900 660 V760 H360 V680 H320" class="wire"/>
+
+ <rect x="692" y="635" width="36" height="60" fill="#fff3db" stroke="#263849" stroke-width="3"/>
+
+ <text x="480" y="665">R2: 10 kΩ pull-down</text><text x="480" y="695" class="small">Base → emitter / GND</text>
+
+ <circle cx="710" cy="560" r="6" class="node"/><circle cx="710" cy="760" r="6" class="node"/>
+
+ <text x="920" y="723" class="small">Emitter connects to GND</text>
+
+ <text x="810" y="795">Common ground</text>
+
+ <rect x="60" y="825" width="1280" height="105" rx="12" fill="#fff3db"/>
+
+ <text x="80" y="855">Unplug USB before wiring. Verify buzzer polarity/voltage and exact transistor datasheet first.</text>
+
+ <text x="80" y="883">Do not connect the buzzer directly to D8. Diode band connects to buzzer + / 5V.</text>
+
+ <text x="80" y="911">Verify the exact transistor manufacturer and B/C/E lead order before connecting power.</text>
+
+<rect x="0" y="960" width="1400" height="100" fill="#fff2ce"/><text x="40" y="996" style="font-family:Arial;font-size:26px;fill:#553700;stroke:none">Designed — Hardware Validation Pending</text><text x="40" y="1032" style="font-family:Arial;font-size:20px;fill:#553700;stroke:none">Unpowered display only · Physical E/B/C pinout unverified · Buzzer operation not validated</text></svg>
+

@@ -1,0 +1,45 @@
+# Java build output and reproducible dependency downloads
+*.class
+/bin/
+/build*/
+/arduino/java/build/
+/arduino/java/lib/*.jar
+
+# Python environments, caches and locally downloaded model
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.test-temp/
+/computer-vision/models/*.task
+/computer-vision/models/*.download
+
+# Machine/camera-specific calibration (recreate for each setup)
+/computer-vision/calibration*.json
+/computer-vision/calibration*.json.tmp
+
+# Temporary work, IDE metadata and OS files
+/tmp/
+/.settings/
+/.classpath
+/.project
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
+*.lck
+*.kicad_prl
+*-backups/
+
+# Local environment settings and credentials
+.env
+.env.*
+!.env.example
+
+# Retain curated validation records, source assets, CAD and documentation exports.
+/phase*-results.txt

@@ -1,0 +1,37 @@
+Status: Designed — Hardware Validation Pending
+Physical transistor E/B/C pinout unverified; no physical buzzer operation validated.
+Documentation finalized; historical software results below are not electrical validation.
+
+Phase 5C-1 verification
+
+Actual Mega compilation:
+Target: arduino:avr:mega:cpu=atmega2560
+Platform: Arduino AVR Boards 1.8.8
+Sketch uses 3478 bytes (1%) of program storage space. Maximum is 253952 bytes.
+Global variables use 265 bytes (3%) of dynamic memory, leaving 7927 bytes for local variables. Maximum is 8192 bytes.
+Result: PASS
+
+Hardware-free test execution:
+AVR compiler 7.3.0-atmel3.6.1-arduino7; AVR8js 0.21.0.
+Test harness includes the actual serial_test.ino with fake time/serial/pins.
+PASS: 32 actual-sketch checks with mocked time/serial/pins on AVR8js
+
+Initial sandbox compile could not load the AVR compiler DLLs; compile and test
+execution succeeded with approved execution outside that sandbox restriction.
+No upload or physical serial port was opened during this verification.
+Wiring PNG rendered from SVG and visually reviewed.
+
+Not performed: physical buzzer identification, pinout verification, electrical
+measurement, wiring, upload, audible beep, or integrated physical game regression.
+
+Identification follow-up: user reports transistor marking 2N2222A 331.
+Manufacturer-specific lead order remains unverified. Documentation and schematic
+labels corrected; conditional breadboard SVG/PNG added and visually reviewed.
+Firmware unchanged in this follow-up; prior compile and 32 checks still apply.
+No new physical hardware tests performed.
+
+Official archive datasheet reviewed: 5V nominal, 3.5–5.5V, current <25mA.
+No guarantee of <=20mA direct drive. Transistor retained; provisional
+110-ohm supply resistance removed from revised circuit. Firmware unchanged.
+
+Finalization: documentation and diagram labels updated only. Firmware, Java and Python unchanged. No new compile, simulation, upload or physical hardware test performed.

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050"><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#326078"/></marker></defs><rect width="1600" height="1050" fill="#f7f9fc"/><style>text{font-family:Arial,sans-serif;fill:#172b40;font-size:20px}.heading{font-size:32px;font-weight:bold}.title{font-size:23px;font-weight:bold}.small{font-size:17px}</style>
+<text x="45" y="55" class="heading">Interactive Projection Guess Who</text>
+<text x="45" y="90" class="">Phase 6A • System architecture and validation boundaries</text>
+<rect x="345" y="145" width="870" height="370" rx="20" fill="#eaf0f8" stroke="#a3b3c6"/>
+<text x="365" y="178" class="title">Windows computer • existing software</text>
+<rect x="40" y="230" width="235" height="155" rx="14" fill="#dceee6" stroke="#68818c" stroke-width="2"/>
+<text x="60" y="265" class="title">USB webcam</text>
+<text x="60" y="298" class="small">Live camera frames</text>
+<text x="60" y="325" class="small">USER TESTED</text>
+<rect x="380" y="230" width="330" height="155" rx="14" fill="#dceee6" stroke="#68818c" stroke-width="2"/>
+<text x="400" y="265" class="title">Python gesture pipeline</text>
+<text x="400" y="298" class="small">OpenCV + MediaPipe</text>
+<text x="400" y="325" class="small">Hand tracking / pinch selection</text>
+<text x="400" y="352" class="small">USER TESTED</text>
+<rect x="850" y="230" width="330" height="155" rx="14" fill="#dceee6" stroke="#68818c" stroke-width="2"/>
+<text x="870" y="265" class="title">Java Guess Who</text>
+<text x="870" y="298" class="small">Swing game + TCP server</text>
+<text x="870" y="325" class="small">jSerialComm serial controller</text>
+<text x="870" y="352" class="small">USER TESTED</text>
+<path d="M275 280 H380" fill="none" stroke="#326078" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="283" y="263" class="small">USB</text>
+<path d="M710 265 H850" fill="none" stroke="#326078" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="719" y="245" class="small">TCP / loopback</text>
+<text x="719" y="290" class="small">SELECT / INFO</text>
+<path d="M850 345 H710" fill="none" stroke="#326078" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="720" y="328" class="small">JSON replies</text>
+<text x="380" y="437" class="small">TCP: 127.0.0.1:5050 (configurable) • UTF-8, newline-delimited JSON</text>
+<text x="380" y="467" class="small">Mouse and gesture selections use the same existing Java action handlers.</text>
+<rect x="1270" y="230" width="290" height="155" rx="14" fill="#e8e3f4" stroke="#68818c" stroke-width="2"/>
+<text x="1290" y="265" class="title">HDMI projector</text>
+<text x="1290" y="298" class="small">PLANNED / UNTESTED</text>
+<text x="1290" y="325" class="small">OS / GPU display output</text>
+<path d="M1180 280 H1270" fill="none" stroke="#326078" stroke-width="3" stroke-dasharray="9 7" marker-end="url(#arrow)"/>
+<text x="1188" y="260" class="small">HDMI</text>
+<rect x="850" y="630" width="330" height="155" rx="14" fill="#dceee6" stroke="#68818c" stroke-width="2"/>
+<text x="870" y="665" class="title">ELEGOO Mega 2560</text>
+<text x="870" y="698" class="small">USB serial + USB power</text>
+<text x="870" y="725" class="small">9600 baud • 8N1</text>
+<text x="870" y="752" class="small">USER TESTED: onboard LED</text>
+<path d="M950 385 V630" fill="none" stroke="#326078" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="720" y="550" class="small">BLINK (game feedback)</text>
+<path d="M1080 630 V385" fill="none" stroke="#326078" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1095" y="595" class="small">ACK / errors</text>
+<rect x="1270" y="630" width="290" height="155" rx="14" fill="#dceee6" stroke="#68818c" stroke-width="2"/>
+<text x="1290" y="665" class="title">Onboard L LED</text>
+<text x="1290" y="698" class="small">LED_BUILTIN / D13</text>
+<text x="1290" y="725" class="small">No external LED wiring</text>
+<text x="1290" y="752" class="small">USER PHYSICALLY TESTED</text>
+<path d="M1180 700 H1270" fill="none" stroke="#326078" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1195" y="681" class="small">GPIO</text>
+<rect x="380" y="630" width="330" height="155" rx="14" fill="#fff0ce" stroke="#68818c" stroke-width="2"/>
+<text x="400" y="665" class="title">Optional active buzzer</text>
+<text x="400" y="698" class="small">D8 → transistor driver</text>
+<text x="400" y="725" class="small">BUZZ firmware available</text>
+<text x="400" y="752" class="small">HARDWARE VALIDATION PENDING</text>
+<path d="M850 700 H710" fill="none" stroke="#326078" stroke-width="3" stroke-dasharray="9 7" marker-end="url(#arrow)"/>
+<text x="735" y="680" class="small">D8 output</text>
+<text x="380" y="825" class="small">BUZZ is standalone firmware functionality; Java gameplay does not send BUZZ.</text>
+<rect x="40" y="630" width="280" height="155" rx="14" fill="#e8e3f4" stroke="#68818c" stroke-width="2"/>
+<text x="60" y="665" class="title">WS2812B extension</text>
+<text x="60" y="698" class="small">PLANNED • not purchased</text>
+<text x="60" y="725" class="small">Separate future design</text>
+<text x="60" y="752" class="small">No assigned pin or wiring</text>
+<text x="45" y="915" class="small">Solid paths: existing tested system (user reported). Dashed paths: planned or unvalidated hardware.</text>
+<text x="45" y="950" class="small">Serial protocol also supports PING / PONG, LED_ON, LED_OFF and BLINK; responses travel back to Java.</text>
+<text x="45" y="985" class="small">Documentation only • No code changes • No PCB • Projector and LED strip are not operational claims.</text>
+</svg>

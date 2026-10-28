@@ -1,0 +1,91 @@
+test_complete_simulation_loop_outputs_converted_event (test_calibration.IntegrationTests.test_complete_simulation_loop_outputs_converted_event) ... ok
+test_config_modes (test_calibration.IntegrationTests.test_config_modes) ... ok
+test_mouse_order_footer_and_camera_failure (test_calibration.IntegrationTests.test_mouse_order_footer_and_camera_failure) ... ok
+test_phase2_select_maps_once (test_calibration.IntegrationTests.test_phase2_select_maps_once) ... ok
+test_ui_select_and_outside_suppression (test_calibration.IntegrationTests.test_ui_select_and_outside_suppression) ... ok
+test_uncalibrated_and_resolution_change_block_selection (test_calibration.IntegrationTests.test_uncalibrated_and_resolution_change_block_selection) ... ok
+test_camera_mirror_convention (test_calibration.MappingTests.test_camera_mirror_convention) ... ok
+test_identity (test_calibration.MappingTests.test_identity) ... ok
+test_invalid_layouts (test_calibration.MappingTests.test_invalid_layouts) ... ok
+test_outside_and_boundary (test_calibration.MappingTests.test_outside_and_boundary) ... ok
+test_perspective_four_corners_and_interior (test_calibration.MappingTests.test_perspective_four_corners_and_interior) ... ok
+test_scaling (test_calibration.MappingTests.test_scaling) ... ok
+test_bad_files_and_tampered_matrix (test_calibration.PersistenceTests.test_bad_files_and_tampered_matrix) ... ok
+test_invalid_fourth_corner_remains_editable (test_calibration.PersistenceTests.test_invalid_fourth_corner_remains_editable) ... ok
+test_mirror_viewport_and_camera_mismatch (test_calibration.PersistenceTests.test_mirror_viewport_and_camera_mismatch) ... ok
+test_reset_undo_save_load (test_calibration.PersistenceTests.test_reset_undo_save_load) ... ok
+test_resolution_mismatch (test_calibration.PersistenceTests.test_resolution_mismatch) ... ok
+test_round_trip_and_metadata (test_calibration.PersistenceTests.test_round_trip_and_metadata) ... ok
+test_bad_timestamp_rejected (test_gesture_detector.GestureTests.test_bad_timestamp_rejected) ... ok
+test_cooldown_consumes_pinch_without_delayed_click (test_gesture_detector.GestureTests.test_cooldown_consumes_pinch_without_delayed_click) ... ok
+test_different_hand_sizes_and_aspect_ratios (test_gesture_detector.GestureTests.test_different_hand_sizes_and_aspect_ratios) ... ok
+test_event_uses_confirmation_frame_coordinates (test_gesture_detector.GestureTests.test_event_uses_confirmation_frame_coordinates) ... ok
+test_held_pinch_emits_once (test_gesture_detector.GestureTests.test_held_pinch_emits_once) ... ok
+test_hysteresis_retains_pinch (test_gesture_detector.GestureTests.test_hysteresis_retains_pinch) ... ok
+test_hysteresis_retains_ready (test_gesture_detector.GestureTests.test_hysteresis_retains_ready) ... ok
+test_invalid_config (test_gesture_detector.GestureTests.test_invalid_config) ... ok
+test_invalid_geometry_is_tracking_loss (test_gesture_detector.GestureTests.test_invalid_geometry_is_tracking_loss) ... ok
+test_long_frame_gap_requires_rearm (test_gesture_detector.GestureTests.test_long_frame_gap_requires_rearm) ... ok
+test_loss_cancels_pending_pinch (test_gesture_detector.GestureTests.test_loss_cancels_pending_pinch) ... ok
+test_loss_during_hold_requires_release (test_gesture_detector.GestureTests.test_loss_during_hold_requires_release) ... ok
+test_open_to_pinch (test_gesture_detector.GestureTests.test_open_to_pinch) ... ok
+test_release_and_reactivation (test_gesture_detector.GestureTests.test_release_and_reactivation) ... ok
+test_short_pinch_and_band_interrupt_debounce (test_gesture_detector.GestureTests.test_short_pinch_and_band_interrupt_debounce) ... ok
+test_short_release_does_not_rearm (test_gesture_detector.GestureTests.test_short_release_does_not_rearm) ... ok
+test_starting_closed_does_not_select (test_gesture_detector.GestureTests.test_starting_closed_does_not_select) ... ok
+test_threshold_boundaries (test_gesture_detector.GestureTests.test_threshold_boundaries) ... ok
+test_console_one_line_per_pinch_and_release (test_gesture_detector.IntegrationTests.test_console_one_line_per_pinch_and_release) ... ok
+test_overlay_status_and_selected (test_gesture_detector.IntegrationTests.test_overlay_status_and_selected) ... ok
+test_blank_frames_have_no_hand (test_inference.InferenceTests.test_blank_frames_have_no_hand) ... <frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.MessageMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+<frozen importlib._bootstrap>:488: DeprecationWarning: Type google._upb._message.ScalarMapContainer uses PyType_Spec with a metaclass that has custom tp_new. This is deprecated and will no longer be allowed in Python 3.14.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1793058652.414683   55880 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1793058652.440363   56964 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1793058652.475441   55056 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+ok
+test_busy_and_context_cancel (test_java_live.LiveTests.test_busy_and_context_cancel) ... ok
+test_coordinate_endpoints_and_center (test_java_live.LiveTests.test_coordinate_endpoints_and_center) ... ok
+Java ACK: {'status': 'executed', 'executed': True, 'id': '1cfcfd68-ebd4-42ad-9d31-13ebd0f5e8a0', 'control': 'fixture'}
+Java ACK: {'status': 'executed', 'executed': True, 'id': '9ac5dd90-b839-4e70-be69-aac9ec5d400f', 'control': 'fixture'}
+test_correct_events_unique_ids_and_ack (test_java_live.LiveTests.test_correct_events_unique_ids_and_ack) ... ok
+test_expired_click_dropped (test_java_live.LiveTests.test_expired_click_dropped) ... ok
+test_incompatible_info (test_java_live.LiveTests.test_incompatible_info) ... ok
+test_live_main_loop_routes_once_and_closes (test_java_live.LiveTests.test_live_main_loop_routes_once_and_closes) ... ok
+Camera frame size: 640 x 480 (requested 640 x 480)
+Java connection: lost ACK
+test_lost_ack_never_replayed (test_java_live.LiveTests.test_lost_ack_never_replayed) ... ok
+test_missing_invalid_calibration_and_outside (test_java_live.LiveTests.test_missing_invalid_calibration_and_outside) ... ok
+Java connection: test server absent
+test_missing_server_reconnect_no_stale_click (test_java_live.LiveTests.test_missing_server_reconnect_no_stale_click) ... ok
+Java ACK: {'status': 'executed', 'executed': True, 'id': '7e6db958-71d2-4f88-9636-ab6150814713', 'control': 'fixture'}
+test_one_network_event_for_held_pinch (test_java_live.LiveTests.test_one_network_event_for_held_pinch) ... ok
+test_optional_cli (test_java_live.LiveTests.test_optional_cli) ... ok
+test_draws_connections_landmarks_and_tip (test_phase1.ApplicationTests.test_draws_connections_landmarks_and_tip) ... ok
+test_loss_overlay_has_no_stale_coordinates (test_phase1.ApplicationTests.test_loss_overlay_has_no_stale_coordinates) ... ok
+test_q_releases_tracker_and_camera (test_phase1.ApplicationTests.test_q_releases_tracker_and_camera) ... ok
+test_startup_error_is_reported_and_windows_closed (test_phase1.ApplicationTests.test_startup_error_is_reported_and_windows_closed) ... ok
+test_driver_read_exception_is_retried (test_phase1.CameraTests.test_driver_read_exception_is_retried) ... ok
+test_open_failure_releases_camera (test_phase1.CameraTests.test_open_failure_releases_camera) ... ok
+test_persistent_loss_exits_and_releases (test_phase1.CameraTests.test_persistent_loss_exits_and_releases) ... ok
+test_temporary_loss_recovers_and_resets_counter (test_phase1.CameraTests.test_temporary_loss_recovers_and_resets_counter) ... ok
+test_bad_arguments (test_phase1.ConfigurationAndClockTests.test_bad_arguments) ... ok
+test_defaults (test_phase1.ConfigurationAndClockTests.test_defaults) ... ok
+test_fps_and_repeated_time (test_phase1.ConfigurationAndClockTests.test_fps_and_repeated_time) ... ok
+test_overrides (test_phase1.ConfigurationAndClockTests.test_overrides) ... ok
+test_timestamps_strictly_increase (test_phase1.ConfigurationAndClockTests.test_timestamps_strictly_increase) ... ok
+test_all_landmarks_and_tip (test_phase1.CoordinatesTests.test_all_landmarks_and_tip) ... ok
+test_center (test_phase1.CoordinatesTests.test_center) ... ok
+test_edges_and_outside (test_phase1.CoordinatesTests.test_edges_and_outside) ... ok
+test_invalid_coordinates (test_phase1.CoordinatesTests.test_invalid_coordinates) ... ok
+test_nonfinite_landmark_is_tracking_loss (test_phase1.CoordinatesTests.test_nonfinite_landmark_is_tracking_loss) ... ok
+test_tracking_loss_clears_points (test_phase1.CoordinatesTests.test_tracking_loss_clears_points) ... ok
+test_failed_download_preserves_existing_model (test_phase1.ModelTests.test_failed_download_preserves_existing_model) ... ok
+test_incomplete_model (test_phase1.ModelTests.test_incomplete_model) ... ok
+test_missing_and_corrupt_model (test_phase1.ModelTests.test_missing_and_corrupt_model) ... ok
+test_supplied_model_bundle (test_phase1.ModelTests.test_supplied_model_bundle) ... ok
+
+----------------------------------------------------------------------
+Ran 73 tests in 3.354s
+
+OK
